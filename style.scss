@@ -1,17 +1,11 @@
-$padding: 6px;
+@import 'partials/reset';
+@import 'partials/variables'; // variables
+// @import 'partials/prefix-mixins';
+// @import 'partials/layout'; // responsive grid and media queries
+// @import 'partials/typography'; // Typography
+// @import 'partials/basic-style';
+@import 'partials/header'; // Header
+// @import 'partials/main'; //Main Styling
+// @import 'partials/footer'; // footer
 
-nav {
-  ul {
-    margin: 0;
-    padding: $padding;
-    list-style: none;
-  }
 
-  li { display: inline-block; }
-
-  a {
-    display: block;
-    padding: $padding 12px;
-    text-decoration: none;
-  }
-}
